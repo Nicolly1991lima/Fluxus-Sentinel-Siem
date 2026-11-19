@@ -2,17 +2,6 @@
 
 Plataforma completa de monitoramento de segurança cibernética em tempo real desenvolvida em **Python puro** (*zero dependências externas*) com **Dashboard Web SOC integrado**. O sistema ingere eventos de rede e autenticação corporativa, detecta intrusões mapeando-as na matriz **MITRE ATT&CK**, executa playbooks automatizados de contenção (**SOAR**), atualiza um painel visual em tempo real no navegador e exporta evidências forenses estruturadas em JSON.
 
----
-
-## 📸 Preview do Painel SOC (Frontend)
-
-> *(Dica: Tire um print da tela do painel aberto no seu navegador, salve como `dashboard.png` na pasta do projeto e suba junto com o código para a imagem aparecer automaticamente aqui!)*
-
-![<img width="1240" height="746" alt="Captura de tela_18-11-2026_214712_localhost" src="https://github.com/user-attachments/assets/7b89e93d-a0a8-4292-ac6e-246bf1c9988b" />
-](dashboard.png)
-
----
-
 ## 🎯 Arquitetura & Funcionalidades
 
 * **Dashboard Web SOC em Tempo Real (`Frontend`):** Interface responsiva em *Dark Mode* servida localmente via HTTP nativo, consumindo a API interna (`/api/dados`) a cada segundo para atualizar KPIs de eventos analisados, ataques bloqueados, distribuição de severidade e feed de telemetria ao vivo.
