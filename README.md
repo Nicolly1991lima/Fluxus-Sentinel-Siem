@@ -8,7 +8,8 @@ Plataforma completa de monitoramento de segurança cibernética em tempo real de
 
 > *(Dica: Tire um print da tela do painel aberto no seu navegador, salve como `dashboard.png` na pasta do projeto e suba junto com o código para a imagem aparecer automaticamente aqui!)*
 
-![Dashboard SOC Fluxus Sentinel](dashboard.png)
+![<img width="1240" height="746" alt="Captura de tela_18-11-2026_214712_localhost" src="https://github.com/user-attachments/assets/7b89e93d-a0a8-4292-ac6e-246bf1c9988b" />
+](dashboard.png)
 
 ---
 
